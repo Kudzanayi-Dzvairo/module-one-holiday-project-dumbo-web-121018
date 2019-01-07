@@ -1,2 +1,4 @@
-require_relative 'config/environment'
+require_relative '../config/environment'
+ActiveRecord::Base.logger.level = 1
 
+welcome
